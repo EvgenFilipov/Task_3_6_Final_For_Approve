@@ -2,7 +2,7 @@ import time
 
 # Тест проверяет название кнопки Ajouter au panier,
 # Команда запуска: pytest --language=fr test_items.py
-def test_vsyakoy_schlyapi(browser):
+def test_add_to_cart_button_from_language(browser):
     print("\nstart test_for_test")
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/."
 
